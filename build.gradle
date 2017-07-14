@@ -1,0 +1,17 @@
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'scala'
+apply plugin: 'application'
+apply from: 'gradle/dependencies.gradle'
+apply from: 'gradle/test.gradle'
+apply from: 'gradle/jar.gradle'
+
+
+
+
