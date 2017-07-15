@@ -24,15 +24,35 @@ judge them by their covers.
 - Watson account
 - Internet access
 
-### Getting a Watson Account
+### Getting a WatsonAnalytics Account
 
 1. Go to https://www.ibm.com/account/us-en/signup/register.html?a=MTBmNDg2NDktNDI2MC00
-2. 
+2. Fill-out form and click enter.
+3. Wait for email with confirmation code in the page following information form.
+4. Input the confirmation code.
+5. Sign-up for WatsonAnalytics by clicking the top-right green button.
+6. Input Company and Phone number again and click enter.
+7. Go here https://watson.analytics.ibmcloud.com/home/data
+
+### Getting Bluemix account if already have a WatsonAnalytics Account
+
+1. Go to https://console.bluemix.net/registration
+2. Input email and phone number and click button.
+
+### Getting access to their APIs.
+
+1. On you bluemix consul, click the hamburger.
+2. Select 'Services'.
+3. Select 'Watson'.
+4. On the Dashboard, click the button 'Create Watson service'
+5. Add a service and repeat until all are selected. Lite have free tiers.
+6. Read terms of use.
+7. For this data set select Natural Language Classifier, Natural Language Understanding, Personality Insights, Tone Analyzer
 
 
-### Excuting Code
+### Executing Code
 
-Unit tests.
+Unit Tests (Work in progress)
 
 
 ### Output
