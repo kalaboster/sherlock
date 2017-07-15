@@ -49,6 +49,7 @@ judge them by their covers.
 6. Read terms of use.
 7. For this data set select Natural Language Classifier, Natural Language Understanding, Personality Insights, Tone Analyzer
 
+## Use
 
 ### Executing Code
 
@@ -59,14 +60,14 @@ Unit Tests (Work in progress)
 
 Return data from Watson is outputted in the file directory src/test/resources/watson
 
-It will classify it by using a file heirarchy based up the Watson's features and services.
+It will classify it by using a file hierarchy based upon the Watson's features and services.
 
 The output file name will be the same as the file input.
 
 json format is preferred.
 
 
-### Use Cases
+### Test Use Cases
 
 - Find the protagonist in a story.
 
