@@ -7,6 +7,8 @@ dependencies {
 
     compile 'com.ibm.watson.developer_cloud:java-sdk:3.7.1'
 
+
+    compile 'org.slf4j:slf4j-api:1.7.10'
     compile 'org.json:json:20160212'
     compile 'com.google.code.gson:gson:2.3.1'
     compile 'org.apache.commons:commons-collections4:4.0'

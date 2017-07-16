@@ -5,9 +5,10 @@ import org.apache.commons.io.FileUtils;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * A class that simply reads in a file and makes it a String.
@@ -15,6 +16,7 @@ import java.util.List;
  */
 public class Reader {
 
+    private static Logger logger = LoggerFactory.getLogger(Reader.class);
 
     protected Reader(){}
 
@@ -63,6 +65,24 @@ public class Reader {
 
         return stringFile;
 
+    }
+
+
+    public static List<String> getCredsEnv(){
+
+        List<String> creds = new ArrayList<String>();
+
+        logger.debug("System.getenv(\"WATSON_USER\"): " + System.getenv("WATSON_USER"));
+        logger.debug("System.getenv(\"WATSON_PASSWORD\"): " + System.getenv("WATSON_PASSWORD"));
+
+        if(System.getenv("WATSON_USER").isEmpty() || System.getenv("WATSON_PASSWORD").isEmpty()){
+            logger.debug("Environment variables for username and password are both not found.");
+        }
+
+        creds.add(System.getenv("WATSON_USER"));
+        creds.add(System.getenv("WATSON_PASSWORD"));
+
+        return creds;
     }
 
     /**

@@ -53,7 +53,18 @@ judge them by their covers.
 
 ### Executing Code
 
-Unit Tests (Work in progress)
+#### Set ENV
+
+The code requires you to set following the environment vars for the Watson user and password used to call the services.
+
+The user name and password are the ones given for the IBM/Watson account.
+
+WATSON_USER is the user name required to make a service call to Watson.
+WATSON_PASSWORD is the password required to make a service call to Watson.
+
+#### Executing Code
+
+Unit Tests
 
 
 ### Output

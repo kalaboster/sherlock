@@ -14,7 +14,7 @@ import java.util.Properties;
  */
 public class ReaderTest {
 
-    //@Test
+    @Test
     public void testReadResourceFile() throws Exception {
 
 
@@ -41,7 +41,8 @@ public class ReaderTest {
     }
 
 
-    @Test
+    //TODO: I am working on this process after making at least on rest call.
+    //@Test
     public void testSerialSentences() throws Exception {
 
         String path = "/read/story/Automation_God.txt";
