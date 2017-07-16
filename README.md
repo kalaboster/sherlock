@@ -8,7 +8,7 @@ Currently only Watson's features Language and Visual are used.
 
 ### Language
 
-Of Language only Natural Language Classifier, Natural Language Understanding, Personality Insights, Tone Analyzer.
+Of Language only Natural Language Understanding, Personality Insights, Tone Analyzer.
 
 ### Visual
 
@@ -47,7 +47,7 @@ judge them by their covers.
 4. On the Dashboard, click the button 'Create Watson service'
 5. Add a service and repeat until all are selected. Lite have free tiers.
 6. Read terms of use.
-7. For this data set select Natural Language Classifier, Natural Language Understanding, Personality Insights, Tone Analyzer
+7. For this data set select Natural Language Understanding, Personality Insights, Tone Analyzer
 
 ## Use
 
