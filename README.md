@@ -49,6 +49,15 @@ judge them by their covers.
 6. Read terms of use.
 7. For this data set select Natural Language Understanding, Personality Insights, Tone Analyzer
 
+### Create Sercie Creds
+
+1. On you bluemix consul, click the hamburger.
+2. Select 'Services'.
+3. Select 'Watson'.
+4. Select the service.
+5. Click 'Service credentials' in left side menu bar.
+6. Create or view existing creds for the service.
+
 ## Use
 
 ### Executing Code

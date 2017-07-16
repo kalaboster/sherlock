@@ -1,0 +1,96 @@
+{
+  "language": "en",
+  "entities": [
+    {
+      "type": "Person",
+      "relevance": 0.33,
+      "count": 1,
+      "text": "Don",
+      "emotion": {
+        "anger": 0.641023,
+        "disgust": 0.129007,
+        "fear": 0.06361,
+        "joy": 0.128436,
+        "sadness": 0.174111
+      },
+      "sentiment": {
+        "score": -0.87765
+      }
+    },
+    {
+      "type": "Person",
+      "relevance": 0.33,
+      "count": 1,
+      "text": "Sue",
+      "emotion": {
+        "anger": 0.641023,
+        "disgust": 0.129007,
+        "fear": 0.06361,
+        "joy": 0.128436,
+        "sadness": 0.174111
+      },
+      "sentiment": {
+        "score": -0.87765
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "relevance": 0.922849,
+      "text": "mosquito",
+      "emotion": {
+        "anger": 0.641023,
+        "disgust": 0.129007,
+        "fear": 0.06361,
+        "joy": 0.128436,
+        "sadness": 0.174111
+      },
+      "sentiment": {
+        "score": -0.87765
+      }
+    },
+    {
+      "relevance": 0.892484,
+      "text": "Sue",
+      "emotion": {
+        "anger": 0.641023,
+        "disgust": 0.129007,
+        "fear": 0.06361,
+        "joy": 0.128436,
+        "sadness": 0.174111
+      },
+      "sentiment": {
+        "score": -0.87765
+      }
+    },
+    {
+      "relevance": 0.833512,
+      "text": "Don",
+      "emotion": {
+        "anger": 0.641023,
+        "disgust": 0.129007,
+        "fear": 0.06361,
+        "joy": 0.128436,
+        "sadness": 0.174111
+      },
+      "sentiment": {
+        "score": -0.87765
+      }
+    },
+    {
+      "relevance": 0.679255,
+      "text": "hand",
+      "emotion": {
+        "anger": 0.641023,
+        "disgust": 0.129007,
+        "fear": 0.06361,
+        "joy": 0.128436,
+        "sadness": 0.174111
+      },
+      "sentiment": {
+        "score": -0.87765
+      }
+    }
+  ],
+  "semanticRoles": []
+}

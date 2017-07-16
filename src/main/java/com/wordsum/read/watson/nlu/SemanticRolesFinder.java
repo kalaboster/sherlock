@@ -1,10 +1,7 @@
 package com.wordsum.read.watson.nlu;
 
 import com.ibm.watson.developer_cloud.natural_language_understanding.v1.NaturalLanguageUnderstanding;
-import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.AnalysisResults;
-import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.AnalyzeOptions;
-import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.Features;
-import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.SemanticRolesOptions;
+import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.*;
 
 /**
  * A class to call Watson's semantic roles finder and ouput the
@@ -42,12 +39,28 @@ public class SemanticRolesFinder {
      */
     public static AnalysisResults getAnalysisResults(NaturalLanguageUnderstanding service, String text) {
 
+        SemanticRolesOptions semanticRolesOptions = new SemanticRolesOptions.Builder()
+                .entities(true)
+                .keywords(true)
+                .limit(5)
+                .build();
 
-        SemanticRolesOptions semanticRoles = new SemanticRolesOptions.Builder()
+        EntitiesOptions entitiesOptions = new EntitiesOptions.Builder()
+                .emotion(true)
+                .sentiment(true)
+                .limit(5)
+                .build();
+
+        KeywordsOptions keywordsOptions = new KeywordsOptions.Builder()
+                .emotion(true)
+                .sentiment(true)
+                .limit(5)
                 .build();
 
         Features features = new Features.Builder()
-                .semanticRoles(semanticRoles)
+                .semanticRoles(semanticRolesOptions)
+                .entities(entitiesOptions)
+                .keywords(keywordsOptions)
                 .build();
 
         AnalyzeOptions parameters = new AnalyzeOptions.Builder()
