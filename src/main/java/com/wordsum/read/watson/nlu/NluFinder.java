@@ -7,10 +7,10 @@ import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.*;
  * A class to call Watson's semantic roles finder and ouput the
  * return into a json object.
  */
-public class SemanticRolesFinder {
+public class NluFinder {
 
 
-    protected SemanticRolesFinder(){}
+    protected NluFinder(){}
 
     /**
      * A static method that returns this service that has ben validated.
