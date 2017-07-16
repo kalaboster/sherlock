@@ -1,8 +1,8 @@
 # sherlock
 
-This wordsum code is to investigate the findings of watson to see if they lead to solving a solution.
+This wordsum code is to investigate the findings of watson to see if they lead to solving a puzzle of finding plot in a story.
 
-This code uses wordsum test data and maybe later be merged with it.
+This code uses wordsum test data and may later be merged with it.
 
 Currently only Watson's features Language and Visual are used.
 
@@ -94,3 +94,16 @@ json format is preferred.
 
 - Find sarcasm.
 
+## Copyright
+
+  Open Story License
+
+  Story: sherlock
+  Writer: Kalab J. Oster&trade;
+  Copyright Holders: Kalab J. Oster&trade;
+  copyright &copy; 2017 Kalab J. Oster&trade;
+
+  Permission is granted by the Copyright Holders for humans or other intelligent agents to read, write, edit, publish
+  and critique the Story if the humans or intelligent agents keep this Open Story License with the Story,
+  and if another writer writes or edits the Story then the writer's name needs to be appended to the end of the Writer
+  list of this Open Story License.
